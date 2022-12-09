@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 
 import Layout from "../components/Layout";
-import ProductComp from "../components/productComp";
+import ProductComp from "../components/ProductComp";
 import { initMongoose } from "../lib/mongoose";
 import { findAllProducts } from "./api/products";
 
